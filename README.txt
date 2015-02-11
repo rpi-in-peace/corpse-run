@@ -6,9 +6,10 @@ Target platform:      PC
 
 Contributers:
 
-Benjamin Krowitz - Director and lead game designer
-Austin Chin      - lead artist
-Crystal Yee      - lead sound designer
-Marina Espinoza
-Amelia Miller    } We're a mix of things.
-Ariel Lee  
+Amelia Miller    - Floater          { Not the XCOM kind - does a little bit of everything! We'll find you a title...}
+Ariel Lee        - Technical Lead   { Fixes all the shitty technical problems and trains fellow memebers to use git }
+Austin Chin      - Art Lead         { The only art major, and the best artist of us all                             }
+Benjamin Krowitz - Game Design Lead { Our almighty director, keeps our game ideas intact                            }
+Crystal Yee      - Audio Lead       { In charge of the music and sound effects                                      }
+Marina Espinoza  - Floater          { Not the XCOM kind - does a little bit of everything! We'll find you a title...}
+Megan Yi         - Rubber Ducky     { We have yet to assign a job to you                                            }
