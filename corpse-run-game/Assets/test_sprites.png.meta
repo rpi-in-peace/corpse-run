@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 81f541bc37a4a45f5988b4b765c3b156
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: test_sprites_0
+    21300002: test_sprites_1
+    21300004: test_sprites_2
+    21300006: test_sprites_3
+    21300008: test_sprites_4
+    21300010: test_sprites_5
+    21300012: test_sprites_6
+    21300014: test_sprites_7
+    21300016: test_sprites_8
+    21300018: test_sprites_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: test_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 631
+        width: 162
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 627
+        width: 131
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 640
+        width: 187
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 682
+        width: 253
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 704
+        width: 297
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 248
+        width: 163
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 244
+        width: 131
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 257
+        width: 186
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 274
+        width: 257
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: test_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 270
+        width: 294
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

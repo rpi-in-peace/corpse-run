@@ -6,6 +6,7 @@ public class WalkScript : MonoBehaviour {
 	// game objects
 	private GameObject objPlayer;
 	private GameObject objCamera;
+	private Animator animation;
 	
 	// input variables
 	private Vector3 inputRotation;
@@ -14,6 +15,9 @@ public class WalkScript : MonoBehaviour {
 	// identity variables
 	private bool IsPlayer;
 	public float moveSpeed = 100f;
+
+	private float lastInputX;
+	private float lastInputY;
 	
 	// calculation variables
 	private Vector3 tempVector;
@@ -23,6 +27,7 @@ public class WalkScript : MonoBehaviour {
 	void Start () {
 		objPlayer = (GameObject) GameObject.FindWithTag ("Player");
 		objCamera = (GameObject)GameObject.FindWithTag ("MainCamera");
+		animation = GetComponent<Animator>();
 		
 		if (gameObject.tag == "Player") 
 		{
@@ -55,6 +60,10 @@ public class WalkScript : MonoBehaviour {
 	{
 		// find vector to move
 		inputMovement = new Vector3 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical"),1 );
+
+		// these are used in FindFacing() 
+		lastInputX = inputMovement.x;
+		lastInputY = inputMovement.y;
 		
 		// find vector to the mouse
 		tempVector2 = new Vector3 (Screen.width * 0.5f, 0, Screen.height * 0.5f);
@@ -65,6 +74,8 @@ public class WalkScript : MonoBehaviour {
 		
 		Debug.Log (tempVector);
 		inputRotation = tempVector - tempVector2;
+
+		FindFacing (); 
 	}
 	
 	void ProcessMovement()
@@ -78,6 +89,37 @@ public class WalkScript : MonoBehaviour {
 	void HandleCamera()
 	{
 		objCamera.transform.position = new Vector3(transform.position.x, transform.position.y,-1);
+		
+	}
+
+	// Changes the animation sprites based on last button press
+	void FindFacing()
+	{
+		
+		if (lastInputX > 0)
+		{
+			animation.SetFloat("LastFaceX", 1f );
+		}
+		if (lastInputX < 0)
+		{
+			animation.SetFloat("LastFaceX", -1f );
+		}
+		if (lastInputX == 0)
+		{
+			animation.SetFloat("LastFaceX", 0f );
+		}
+		if (lastInputY > 0)
+		{
+			animation.SetFloat("LastFaceY", 1f );
+		}
+		if (lastInputY < 0)
+		{
+			animation.SetFloat("LastFaceY", -1f );
+		}
+		if (lastInputY == 0)
+		{
+			animation.SetFloat("LastFaceY", 0f );
+		}
 		
 	}
 
